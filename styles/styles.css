@@ -1,13 +1,13 @@
 .container {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 a {
@@ -20,7 +20,9 @@ a {
 }
 
 .header {
-  border: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ececec;
 }
 
 .webstudio_header {
@@ -43,13 +45,11 @@ a {
 
 .menu_nav {
   display: flex;
+  justify-content: space-between;
 }
 
 .studio {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,9 +67,6 @@ a {
 
 .portfolio {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,8 +84,6 @@ a {
 
 .contacts {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -106,12 +101,11 @@ a {
 
 .menu_contacts {
   display: flex;
-  justify-content: flex-end;
   align-items: flex-start;
+  margin-left: auto;
 }
 
 .email {
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -139,7 +133,6 @@ a {
 }
 
 .main_hat {
-  left: 0;
   background: #2f303a;
 }
 
@@ -208,14 +201,12 @@ a {
 
 .list_work {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .img_work {
   display: block;
-  justify-content: center;
   list-style-type: none;
-  margin-left: 30px;
 }
 
 .our_team {
@@ -233,11 +224,12 @@ a {
 
 .team {
   display: flex;
-  justify-content: center;
+  margin-right: 0 auto;
+  justify-content: start;
+  justify-content: space-between;
 }
 
 .team_card {
-  margin-left: 30px;
   list-style-type: none;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -329,12 +321,16 @@ a {
 }
 
 .button_filter_portfolio {
-  justify-content: center;
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button_filter_main {
+  width: 100px;
+  height: 38px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -349,6 +345,9 @@ a {
 }
 
 .button_filter {
+  margin-left: 10px;
+  width: 100px;
+  height: 38px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
