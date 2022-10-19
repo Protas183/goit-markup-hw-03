@@ -10,6 +10,14 @@
   padding-bottom: 94px;
 }
 
+.section_team {
+  width: 1200px;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+
 a {
   text-decoration: none;
 }
@@ -26,6 +34,7 @@ a {
 }
 
 .webstudio_header {
+  margin-left: 10%;
   width: 145px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -44,6 +53,8 @@ a {
 }
 
 .menu_nav {
+  margin: 0 auto;
+  width: 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -100,9 +111,12 @@ a {
 }
 
 .menu_contacts {
+  margin-right: 10%;
+  width: 330px;
   display: flex;
   align-items: flex-start;
   margin-left: auto;
+  justify-content: space-between;
 }
 
 .email {
@@ -134,9 +148,13 @@ a {
 
 .main_hat {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hat_words {
+  margin: 0 auto;
+  width: 800px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -169,11 +187,21 @@ a {
 }
 
 .features {
+  padding-left: 0;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
   list-style-type: none;
 }
 
+.describe_card {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .features_tittle {
+  margin: 0 auto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -183,6 +211,7 @@ a {
 }
 
 .features_describe {
+  margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -191,6 +220,7 @@ a {
 }
 
 .text_what_do_we_do {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -200,6 +230,8 @@ a {
 }
 
 .list_work {
+  margin: 0;
+  padding-left: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -209,11 +241,8 @@ a {
   list-style-type: none;
 }
 
-.our_team {
-  background: #f5f4fa;
-}
-
 .text_our_team {
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -224,8 +253,8 @@ a {
 
 .team {
   display: flex;
-  margin-right: 0 auto;
-  justify-content: start;
+  margin: 0 auto;
+  padding-left: 0;
   justify-content: space-between;
 }
 
@@ -258,7 +287,17 @@ a {
   background: #2f303a;
 }
 
+.footer_place_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .webstudio_footer {
+  width: 140px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -276,6 +315,9 @@ a {
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
   list-style-type: none;
 }
 
