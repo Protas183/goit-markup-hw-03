@@ -11,11 +11,13 @@
 }
 
 .section_team {
-  width: 1200px;
-  margin: auto;
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
+}
+
+.section_what_do_we_do {
+  padding-bottom: 94px;
 }
 
 a {
@@ -28,13 +30,20 @@ a {
 }
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header_navigation {
+  margin: 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #ececec;
 }
 
 .webstudio_header {
-  margin-left: 10%;
+  display: flex;
   width: 145px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -53,10 +62,11 @@ a {
 }
 
 .menu_nav {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   width: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .studio {
@@ -111,11 +121,11 @@ a {
 }
 
 .menu_contacts {
-  margin-right: 10%;
-  width: 330px;
+  width: 300px;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-items: flex-start;
-  margin-left: auto;
+  justify-content: flex-end;
   justify-content: space-between;
 }
 
@@ -195,14 +205,9 @@ a {
   list-style-type: none;
 }
 
-.describe_card {
-  margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .features_tittle {
   margin: 0 auto;
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -222,6 +227,7 @@ a {
 
 .text_what_do_we_do {
   margin: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -244,6 +250,7 @@ a {
 
 .text_our_team {
   margin: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -267,7 +274,15 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
+.describe_card {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .name_person {
+  margin: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -275,7 +290,9 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .job_person {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -285,6 +302,8 @@ a {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
 
@@ -292,12 +311,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10%;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .webstudio_footer {
+  margin-bottom: 11px;
   width: 140px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -316,10 +333,15 @@ a {
 }
 
 .address {
+  margin: 0;
   display: flex;
   flex-direction: column;
   padding-left: 0;
   list-style-type: none;
+}
+
+.address_li {
+  margin-top: 9px;
 }
 
 .map_address {
@@ -364,15 +386,17 @@ a {
 }
 
 .button_filter_portfolio {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
   display: flex;
   list-style-type: none;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .button_filter_main {
-  width: 100px;
+  padding-left: 22px;
+  padding-right: 22px;
   height: 38px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -388,8 +412,9 @@ a {
 }
 
 .button_filter {
-  margin-left: 10px;
-  width: 100px;
+  margin-left: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
   height: 38px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -403,6 +428,9 @@ a {
 }
 
 .projects {
+  margin: 0;
+  padding: 0;
+  margin: -15px;
   justify-content: center;
   list-style-type: none;
   display: flex;
@@ -410,14 +438,18 @@ a {
 }
 
 .project {
-  margin: 30px;
+  margin: 0;
+  margin: 15px;
+}
+
+.card_describe {
+  margin-top: -5px;
+  padding: 24px;
   border: 1px solid #eeeeee;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .project_name {
-  margin-left: 24px;
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -426,7 +458,7 @@ a {
 }
 
 .project_filter {
-  margin-left: 24px;
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
