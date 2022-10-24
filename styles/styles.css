@@ -39,10 +39,10 @@ a {
   margin: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .webstudio_header {
-  margin-right: 93px;
   display: flex;
   width: 145px;
   font-family: "Raleway", sans-serif;
@@ -62,13 +62,14 @@ a {
 }
 
 .menu_nav {
+  width: 300px;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .studio {
-  margin-right: 50px;
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -88,7 +89,6 @@ a {
 }
 
 .portfolio {
-  margin-right: 50px;
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -127,14 +127,15 @@ a {
 }
 
 .menu_contacts {
+  width: 300px;
   margin: 0;
   padding: 0;
   display: flex;
-  margin-left: auto;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .email {
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -165,7 +166,7 @@ a {
   color: aqua;
 }
 
-.main_hat {
+.section_main_hat {
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -210,13 +211,17 @@ a {
   padding-left: 0;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style-type: none;
+}
+
+.li_features {
+  width: 270px;
 }
 
 .features_tittle {
   margin: 0 auto;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -420,8 +425,11 @@ a {
   border-radius: 4px;
 }
 
-.button_filter {
+.li_button_filter {
   margin-left: 8px;
+}
+
+.button_filter {
   padding-left: 22px;
   padding-right: 22px;
   height: 38px;
